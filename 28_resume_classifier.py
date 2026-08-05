@@ -118,4 +118,5 @@ sample_resume = "Experienced Python developer with 3 years in machine learning a
 result = classifier(sample_resume)
 print("\nTest prediction:", result)
 predicted_label = int(result[0]['label'].split('_')[1])
+
 print("Predicted category:", le.classes_[predicted_label])
